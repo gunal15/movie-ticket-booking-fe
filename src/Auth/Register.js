@@ -112,9 +112,9 @@ const Register = () => {
          <input type="email" className="form-control" onChange={(e)=>setEmail(e.target.value)} placeholder="Your Email" required/>
      </div>
        <label  class="form-label mt-1">Create Password</label>
-      <input type="text" placeholder='Enter Password'  class="form-control"onChange={(e)=>setPassword(e.target.value)}  required/>
+      <input type="password" placeholder='Enter Password'  class="form-control"onChange={(e)=>setPassword(e.target.value)}  required/>
       <label for="inputPassword5" className="form-label mt-1">Confirm Password</label>
-      <input type="text" placeholder='Re-enter Password'  class="form-control"onChange={(e)=>setRe_password(e.target.value)}  required/>
+      <input type="password" placeholder='Re-enter Password'  class="form-control"onChange={(e)=>setRe_password(e.target.value)}  required/>
       <div class="mb-3">
         <label for="formFile" className="form-label">Set Profile Image</label>
         <input class="form-control" type="file" onChange={(e)=>postDetails(e.target.files[0])} id="formFile"/>
